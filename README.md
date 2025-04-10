@@ -1,1 +1,51 @@
-<h1 align="center">Hi 👋, I'm Nits</h1> <h3 align="center">A Passionate Data Scientist & Analyst from India 🇮🇳</h3> <p align="center"> <img src="https://readme-typing-svg.herokuapp.com/?lines=Data+Driven+Decision+Maker;Data+Scientist+%7C+Analyst+%7C+ML+Explorer;Lover+of+Data+%26+Visualization&center=true&width=500&height=45" /> </p> <p align="center"> <a href="https://www.linkedin.com/in/nitin-rawat-a38536270/" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" height="40" width="40" /></a> <a href="mailto:nitinrawat2502@gmail.com" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Email" height="40" width="40" /></a> <a href="https://github.com/nitinrawat05" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/733/733553.png" alt="GitHub" height="40" width="40" /></a> </p> <p align="center"> <a href="https://www.python.org/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python" width="50" height="50"/></a> <a href="https://pandas.pydata.org/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pandas/pandas-original.svg" alt="Pandas" width="50" height="50"/></a> <a href="https://numpy.org/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/numpy/numpy-original.svg" alt="NumPy" width="50" height="50"/></a> <a href="https://scikit-learn.org/" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="Scikit-Learn" width="50" height="50"/></a> <a href="https://seaborn.pydata.org/" target="_blank"><img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" alt="Seaborn" width="50" height="50"/></a> <a href="https://matplotlib.org/" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/8/84/Matplotlib_icon.svg" alt="Matplotlib" width="50" height="50"/></a> <a href=https://www.mysql.com/" target=_blank><img src=https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg alt=MySQL width=50 height=50/></a> <a href=https://powerbi.microsoft.com/" target=_blank><img src=https://cdn.worldvectorlogo.com/logos/power-bi-1.svg alt=PowerBI width=50 height=50/></p>
+<h1 align="center">Hi, I'm Nitin Rawat (aka Nits) 👋</h1>
+<h3 align="center">Aspiring Data Scientist & Analyst | Pythonista | SQL Ninja | Insight Seeker</h3>
+
+---
+
+### 📊 About Me
+- 🧠 Currently diving deep into Data Analysis, Machine Learning, and Predictive Modeling  
+- 📈 Love transforming raw data into actionable insights  
+- 🛠️ Skilled in Python, SQL (MySQL + MSSQL), Excel, Tableau, and Power BI  
+- 📚 Constant learner, currently exploring Deep Learning & AI  
+- 🎯 Career Goal: Build AI products that make real-world impact  
+- 💬 Ask me about: Data wrangling, EDA, Dashboarding, ML models  
+
+---
+
+### 🛠️ Tech Stack
+
+<p align="left">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="40" /> 
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="40" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg" width="40" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pandas/pandas-original.svg" width="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/numpy/numpy-original.svg" width="40"/>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Scikit_learn_logo_small.svg/512px-Scikit_learn_logo_small.svg.png" width="40"/>
+  <img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" width="40"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-plain.svg" width="40"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tableau/tableau-original.svg" width="40"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualstudio/visualstudio-plain.svg" width="40"/>
+</p>
+
+---
+
+### 📈 GitHub Stats
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=nitinrawat05&show_icons=true&theme=radical" alt="Nitin's GitHub stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=nitinrawat05&layout=compact&theme=radical" />
+</p>
+
+---
+
+### 🌐 Let's Connect
+
+<p align="left">
+  <a href="https://www.linkedin.com/in/nitin-rawat-a38536270/" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" width="30"/></a>
+  <a href="mailto:nitinrawat2502@gmail.com"><img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" width="30"/></a>
+  <a href="https://github.com/nitinrawat05" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" width="30"/></a>
+</p>
+
+---
+
+> “Numbers have an important story to tell. They rely on you to give them a clear and convincing voice.” — Stephen Few
