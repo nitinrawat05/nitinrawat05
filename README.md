@@ -56,11 +56,29 @@
 
 ---
 
-### 📚 Currently Exploring
+### 📊 Data Analysis in Action
 
-```mermaid
-graph TD;
-    A[Deep Learning] --> B[Hugging Face 🤗];
-    B --> C[LangChain 🔗];
-    C --> D[Prompt Engineering 💬];
-    D --> E[LLM App Prototyping ⚙️];
+![Sales Analysis Chart](https://your-github.com/assets/sales-analysis.png)
+> *Visualizing revenue trends using Matplotlib & Seaborn*
+
+---
+
+### 🤖 Machine Learning Code Snapshot
+
+```python
+# Random Forest Classifier - Bank Loan Prediction
+import pandas as pd
+from sklearn.model_selection import train_test_split
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.metrics import accuracy_score
+
+df = pd.read_csv("loan_data.csv")
+X = df.drop("loan_status", axis=1)
+y = df["loan_status"]
+
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)
+model = RandomForestClassifier()
+model.fit(X_train, y_train)
+
+preds = model.predict(X_test)
+print(f"Accuracy: {accuracy_score(y_test, preds):.2f}")
