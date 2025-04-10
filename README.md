@@ -20,7 +20,7 @@
 
 ### 💼 Experience Snapshot
 
-#### 🚀 Jr. Data Analyst – *Elon Staffing (2023 – 2024)*
+#### 🚀 Jr. Data Analyst – *Elon Staffing *
 - Automated KPI dashboards using **Tableau** & **Excel**
 - Streamlined ETL pipelines using **Python (Pandas, NumPy)**
 - Performed ad-hoc SQL queries for fast insights
