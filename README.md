@@ -20,19 +20,29 @@
 ### 💻 Tech Stack & Tools
 
 #### ⚙️ Languages & Libraries
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=python,sql,jupyter,numpy,pandas,scikit-learn,seaborn,git" />
-</p>
+<img src="https://skillicons.dev/icons?i=python" title="Python" />
+<img src="https://skillicons.dev/icons?i=sql" title="SQL" />
+<img src="https://skillicons.dev/icons?i=jupyter" title="Jupyter" />
+<img src="https://skillicons.dev/icons?i=numpy" title="NumPy" />
+<img src="https://skillicons.dev/icons?i=pandas" title="Pandas" />
+<img src="https://skillicons.dev/icons?i=scikit-learn" title="Scikit-Learn" />
+<img src="https://skillicons.dev/icons?i=seaborn" title="Seaborn" />
+<img src="https://skillicons.dev/icons?i=git" title="Git" />
 
-<!-- 📊 BI & Visualizations -->
-<p align="center"> <img src="https://skillicons.dev/icons?i=tableau" title="Tableau" /> <img src="https://skillicons.dev/icons?i=powerbi" title="Power BI" /> <img src="https://skillicons.dev/icons?i=excel" title="Microsoft Excel" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/plotly/plotly-original.svg" width="40" title="Plotly" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matplotlib/matplotlib-original.svg" width="40" title="Matplotlib" /> <img src="https://raw.githubusercontent.com/mwaskom/seaborn/main/doc/_static/logo-wide-lightbg.svg" height="40" title="Seaborn" /> </p>
+#### 📊 BI & Visualizations
+<img src="https://skillicons.dev/icons?i=tableau" title="Tableau" />
+<img src="https://skillicons.dev/icons?i=powerbi" title="Power BI" />
+<img src="https://skillicons.dev/icons?i=excel" title="Microsoft Excel" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/plotly/plotly-original.svg" width="40" title="Plotly" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matplotlib/matplotlib-original.svg" width="40" title="Matplotlib" />
+<img src="https://raw.githubusercontent.com/mwaskom/seaborn/main/doc/_static/logo-wide-lightbg.svg" height="40" title="Seaborn" />
 
 #### 🤖 AI & LLMs (Learning)
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=pytorch,tensorflow" />
-  <img src="https://avatars.githubusercontent.com/u/1399141?s=200&v=4" width="40" title="Hugging Face"/>
-  <img src="https://avatars.githubusercontent.com/u/116947076?s=200&v=4" width="40" title="LangChain"/>
-</p>
+<img src="https://skillicons.dev/icons?i=pytorch" title="PyTorch" />
+<img src="https://skillicons.dev/icons?i=tensorflow" title="TensorFlow" />
+<img src="https://avatars.githubusercontent.com/u/1399141?s=200&v=4" width="40" title="Hugging Face" />
+<img src="https://avatars.githubusercontent.com/u/116947076?s=200&v=4" width="40" title="LangChain" />
+
 
 ---
 
