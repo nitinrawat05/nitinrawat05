@@ -25,35 +25,7 @@
 </p>
 
 <!-- 📊 BI & Visualizations -->
-<h4 align="center">📊 BI & Visualizations</h4>
-<p align="center" style="display:flex; justify-content:center; gap:15px; flex-wrap:wrap;">
-
-  <a href="https://www.tableau.com/" target="_blank">
-    <img src="https://skillicons.dev/icons?i=tableau" title="Tableau" style="transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.2)'" onmouseout="this.style.transform='scale(1)'"/>
-  </a>
-
-  <a href="https://powerbi.microsoft.com/" target="_blank">
-    <img src="https://skillicons.dev/icons?i=powerbi" title="Power BI" style="transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.2)'" onmouseout="this.style.transform='scale(1)'"/>
-  </a>
-
-  <a href="https://www.microsoft.com/en-us/microsoft-365/excel" target="_blank">
-    <img src="https://skillicons.dev/icons?i=excel" title="Microsoft Excel" style="transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.2)'" onmouseout="this.style.transform='scale(1)'"/>
-  </a>
-
-  <a href="https://plotly.com/" target="_blank">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/plotly/plotly-original.svg" width="40" title="Plotly" style="transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.2)'" onmouseout="this.style.transform='scale(1)'"/>
-  </a>
-
-  <a href="https://matplotlib.org/" target="_blank">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matplotlib/matplotlib-original.svg" width="40" title="Matplotlib" style="transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.2)'" onmouseout="this.style.transform='scale(1)'"/>
-  </a>
-
-  <a href="https://seaborn.pydata.org/" target="_blank">
-    <img src="https://raw.githubusercontent.com/mwaskom/seaborn/main/doc/_static/logo-wide-lightbg.svg" height="40" title="Seaborn" style="transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.2)'" onmouseout="this.style.transform='scale(1)'"/>
-  </a>
-
-</p>
-
+<p align="center"> <img src="https://skillicons.dev/icons?i=tableau" title="Tableau" /> <img src="https://skillicons.dev/icons?i=powerbi" title="Power BI" /> <img src="https://skillicons.dev/icons?i=excel" title="Microsoft Excel" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/plotly/plotly-original.svg" width="40" title="Plotly" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matplotlib/matplotlib-original.svg" width="40" title="Matplotlib" /> <img src="https://raw.githubusercontent.com/mwaskom/seaborn/main/doc/_static/logo-wide-lightbg.svg" height="40" title="Seaborn" /> </p>
 
 #### 🤖 AI & LLMs (Learning)
 <p align="center">
