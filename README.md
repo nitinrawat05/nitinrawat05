@@ -5,14 +5,15 @@
 ---
 
 ### 🧠 About Me
+
 <div align="left">
-
-- 💡 Passionate about **data-driven decision making**  
-- 🤖 Exploring **ML**, **LLMs (GPT, LangChain)**, and **NLP**  
-- 📈 Turning messy data into crystal-clear dashboards  
-- 💬 Ask me about: Data wrangling, EDA, predictive models, or debugging your SQL JOIN 😉  
-- 🎯 Currently learning: **LangChain, Hugging Face, TensorFlow**
-
+  <ul>
+    <li>💡 Passionate about <b>data-driven decision making</b></li>
+    <li>🤖 Exploring <b>ML</b>, <b>LLMs (GPT, LangChain)</b>, and <b>NLP</b></li>
+    <li>📈 Turning messy data into crystal-clear dashboards</li>
+    <li>💬 Ask me about: Data wrangling, EDA, predictive models, or debugging your SQL JOIN 😉</li>
+    <li>🎯 Currently learning: <b>LangChain, Hugging Face, TensorFlow</b></li>
+  </ul>
 </div>
 
 ---
@@ -21,84 +22,74 @@
 
 ---
 
-#### ⚙️ Languages & Libraries  
-<img src="https://skillicons.dev/icons?i=python" title="Python" />  
-<img src="https://skillicons.dev/icons?i=sql" title="SQL" />  
-<img src="https://skillicons.dev/icons?i=jupyter" title="Jupyter" />  
-<img src="https://skillicons.dev/icons?i=numpy" title="NumPy" />  
-<img src="https://skillicons.dev/icons?i=pandas" title="Pandas" />  
-<img src="https://skillicons.dev/icons?i=scikitlearn" title="Scikit-learn" />  
-<img src="https://skillicons.dev/icons?i=seaborn" title="Seaborn" />  
-<img src="https://skillicons.dev/icons?i=git" title="Git" />
+#### ⚙️ Languages & Libraries
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python" title="Python" />
+  <img src="https://skillicons.dev/icons?i=sql" title="SQL" />
+  <img src="https://skillicons.dev/icons?i=jupyter" title="Jupyter" />
+  <img src="https://skillicons.dev/icons?i=numpy" title="NumPy" />
+  <img src="https://skillicons.dev/icons?i=pandas" title="Pandas" />
+  <img src="https://skillicons.dev/icons?i=scikitlearn" title="Scikit-learn" />
+  <img src="https://skillicons.dev/icons?i=seaborn" title="Seaborn" />
+  <img src="https://skillicons.dev/icons?i=git" title="Git" />
+</p>
 
 ---
 
-#### 📊 BI & Visualizations  
-<img src="https://skillicons.dev/icons?i=tableau" title="Tableau" />  
-<img src="https://skillicons.dev/icons?i=powerbi" title="Power BI" />  
-<img src="https://skillicons.dev/icons?i=excel" title="Microsoft Excel" />  
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/plotly/plotly-original.svg" width="40" title="Plotly" />  
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matplotlib/matplotlib-original.svg" width="40" title="Matplotlib" />  
-<img src="https://raw.githubusercontent.com/mwaskom/seaborn/main/doc/_static/logo-wide-lightbg.svg" height="40" title="Seaborn" />
+#### 📊 BI & Visualizations
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=tableau" title="Tableau" />
+  <img src="https://skillicons.dev/icons?i=powerbi" title="Power BI" />
+  <img src="https://skillicons.dev/icons?i=excel" title="Microsoft Excel" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/plotly/plotly-original.svg" width="40" title="Plotly" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matplotlib/matplotlib-original.svg" width="40" title="Matplotlib" />
+  <img src="https://raw.githubusercontent.com/mwaskom/seaborn/main/doc/_static/logo-wide-lightbg.svg" height="40" title="Seaborn" />
+</p>
 
 ---
 
-#### 🤖 AI & LLMs (Learning Phase)  
-<img src="https://skillicons.dev/icons?i=pytorch" title="PyTorch" />  
-<img src="https://skillicons.dev/icons?i=tensorflow" title="TensorFlow" />  
-<img src="https://avatars.githubusercontent.com/u/1399141?s=200&v=4" width="40" title="Hugging Face" />  
-<img src="https://avatars.githubusercontent.com/u/116947076?s=200&v=4" width="40" title="LangChain" />
+#### 🤖 AI & LLMs (Learning Phase)
 
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=pytorch" title="PyTorch" />
+  <img src="https://skillicons.dev/icons?i=tensorflow" title="TensorFlow" />
+  <img src="https://avatars.githubusercontent.com/u/1399141?s=200&v=4" width="40" title="Hugging Face" />
+  <img src="https://avatars.githubusercontent.com/u/116947076?s=200&v=4" width="40" title="LangChain" />
+</p>
 
 ---
 
 ### ✨ Experiences
+
 <div align="left">
+  <h4>🔹 Jr. Data Analyst – <b>Elon Staffing (2023 – 2024)</b></h4>
+  <ul>
+    <li>🛠️ Automated Tableau & Excel dashboards for KPI monitoring</li>
+    <li>🐍 Streamlined ETL using <b>Python (Pandas, NumPy)</b></li>
+    <li>🧮 Queried & analyzed SQL datasets to derive actionable insights</li>
+    <li>⚡ Reduced manual reporting time by <b>30%</b></li>
+  </ul>
 
-#### 🔹 Jr. Data Analyst – **Elon Staffing (2023 – 2024)**
-- 🛠️ Automated Tableau & Excel dashboards for KPI monitoring  
-- 🐍 Streamlined ETL using **Python (Pandas, NumPy)**  
-- 🧮 Queried & analyzed SQL datasets to derive actionable insights  
-- ⚡ Reduced manual reporting time by **30%**
-
-#### 🔹 Data Analyst Intern – **Personal Projects**
-- 📌 Projects: Sales Insights, Bank Loan Risk Models, Conversion Funnels  
-- 🧰 Tools: MySQL, Scikit-learn, Seaborn, Power BI, Excel  
-
+  <h4>🔹 Data Analyst Intern – <b>Personal Projects</b></h4>
+  <ul>
+    <li>📌 Projects: Sales Insights, Bank Loan Risk Models, Conversion Funnels</li>
+    <li>🧰 Tools: MySQL, Scikit-learn, Seaborn, Power BI, Excel</li>
+  </ul>
 </div>
 
 ---
 
 ### 📊 Data Analysis in Action
 
-![Sales Analysis Chart](https://your-github.com/assets/sales-analysis.png)
-> *Visualizing revenue trends using Matplotlib & Seaborn*
+<p align="center">
+  <img src="https://your-github.com/assets/sales-analysis.png" alt="Sales Analysis Chart" />
+  <br>
+  <i>Visualizing revenue trends using Matplotlib & Seaborn</i>
+</p>
 
 ---
 
 ### 🤖 Machine Learning Code Snapshot
 
-```python
-# Random Forest Classifier - Bank Loan Prediction
-import pandas as pd
-from sklearn.model_selection import train_test_split
-from sklearn.ensemble import RandomForestClassifier
-from sklearn.metrics import accuracy_score
-
-df = pd.read_csv("loan_data.csv")
-X = df.drop("loan_status", axis=1)
-y = df["loan_status"]
-
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)
-model = RandomForestClassifier()
-model.fit(X_train, y_train)
-
-preds = model.predict(X_test)
-print(f"Accuracy: {accuracy_score(y_test, preds):.2f}")
-
-
-graph TD;
-    A[Deep Learning] --> B[Hugging Face 🤗];
-    B --> C[LangChain 🔗];
-    C --> D[Prompt Engineering 💬];
-    D --> E[LLM App Prototyping ⚙️];
