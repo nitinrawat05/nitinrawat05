@@ -10,42 +10,48 @@
 
 ### 🧠 About Me
 
-- 📌 Data Enthusiast focused on **insightful storytelling through data**
-- 🧬 Exploring the world of **ML**, **LLMs**, and **AI automation**
-- 📊 Specializing in **dashboard design**, **ETL**, and **data wrangling**
-- 💡 Current obsessions: **LangChain, Hugging Face, TensorFlow**
-- 💬 Fun fact: I love debugging JOIN queries like solving puzzles 🧩
+- 📌 Data Enthusiast focused on **insightful storytelling through data**  
+- 🧬 Exploring the world of **ML**, **LLMs**, and **AI automation**  
+- 📊 Specializing in **dashboard design**, **ETL**, and **data wrangling**  
+- 💡 Current obsessions: **LangChain, Hugging Face, TensorFlow**  
+- 💬 Fun fact: I love debugging JOIN queries like solving puzzles 🧩  
 
 ---
 
 ### 💼 Experience Snapshot
 
-#### 🚀 Jr. Data Analyst – *Elon Staffing *
-- Automated KPI dashboards using **Tableau** & **Excel**
-- Streamlined ETL pipelines using **Python (Pandas, NumPy)**
-- Performed ad-hoc SQL queries for fast insights
-- Reduced reporting time by **30%** via automation
+#### 🧠 MIS Intelligence Analyst – *AdByteHub*  
+- Analyzed performance marketing data (CTR, CPC, ROAS, conversions) for Facebook Ads campaigns  
+- Created detailed revenue, campaign, and ROI reports to provide actionable insights  
+- Developed Tableau dashboards to track KPIs and campaign performance  
+- Managed and cleaned large datasets to ensure accurate reporting and analysis  
 
-#### 🔍 Freelance Projects – *Data Analyst Intern*
-- ✅ Worked on Sales, Loan Prediction, and Marketing Analytics projects
-- 🛠️ Tools used: MySQL, Scikit-learn, Power BI, Seaborn, Excel
+#### 🚀 Jr. Data Analyst – *Elon Staffing*  
+- Automated KPI dashboards using **Tableau** & **Excel**  
+- Streamlined ETL pipelines using **Python (Pandas, NumPy)**  
+- Performed ad-hoc SQL queries for fast insights  
+- Reduced reporting time by **30%** via automation  
+
+#### 🔍 Freelance Projects – *Data Analyst Intern*  
+- ✅ Worked on Sales, Loan Prediction, and Marketing Analytics projects  
+- 🛠️ Tools used: MySQL, Scikit-learn, Power BI, Seaborn, Excel  
 
 ---
 
 ### 🔧 Tech Stack & Tools
 
-#### ⚙️ Programming, Analysis & ML
+#### ⚙️ Programming, Analysis & ML  
 <p align="center">
   <img src="https://skillicons.dev/icons?i=python,sql,jupyter,numpy,pandas,scikit-learn,seaborn,matplotlib,git" />
 </p>
 
-#### 📊 BI & Visualization
+#### 📊 BI & Visualization  
 <p align="center">
   <img src="https://skillicons.dev/icons?i=powerbi,tableau,excel" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/plotly/plotly-original.svg" width="40" title="Plotly" />
 </p>
 
-#### 🤖 AI & LLMs (Learning)
+#### 🤖 AI & LLMs (Learning)  
 <p align="center">
   <img src="https://skillicons.dev/icons?i=pytorch,tensorflow" />
   <img src="https://avatars.githubusercontent.com/u/1399141?s=200&v=4" width="40" title="Hugging Face" />
@@ -56,11 +62,11 @@
 
 ### 📊 Project Gallery
 
-#### 🔹 Sales Analysis
-![Sales Dashboard](https://github.com/nitinrawat05/nitinrawat05/blob/main/assets/sales_analysis.png)
+#### 🔹 Sales Analysis  
+![Sales Dashboard](https://github.com/nitinrawat05/nitinrawat05/blob/main/assets/sales_analysis.png)  
 > *Trends & Revenue insights powered by Matplotlib & Seaborn*
 
-#### 🔹 Loan Default Prediction
+#### 🔹 Loan Default Prediction  
 ```python
 # ML: Random Forest for Bank Loan Classification
 import pandas as pd
@@ -83,21 +89,5 @@ model.fit(X_train, y_train)
 # Prediction & Accuracy
 preds = model.predict(X_test)
 print(f"Accuracy: {accuracy_score(y_test, preds):.2f}")
-```
 
----
-
-### 📫 Let’s Connect!
-
-- 🔗 [LinkedIn](https://www.linkedin.com/in/nitin-rawat-a38536270/)
-- 💻 [GitHub](https://github.com/nitinrawat05)
-- 📊 [Tableau Public](https://public.tableau.com/app/profile/nitinrawat)
-
----
-
-### 🔥 Motivation
-> "Data speaks. I decode its story and turn it into insight."
-
-```python
-while not success:
     keep_trying()
