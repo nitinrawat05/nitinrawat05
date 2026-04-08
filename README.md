@@ -1,308 +1,286 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Nitin%20Rawat&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Data%20Analyst%20%E2%80%A2%20BI%20Engineer%20%E2%80%A2%20Pipeline%20Builder&descAlignY=55&descSize=16" width="100%" />
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Nitin Rawat — LinkedIn Profile</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #f3f2ef; color: #000; }
+  .container { max-width: 740px; margin: 32px auto; padding: 0 16px 64px; }
 
-<div align="center">
+  /* CARD */
+  .card { background: #fff; border-radius: 10px; border: 1px solid #e0e0e0; margin-bottom: 12px; overflow: hidden; }
 
-<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=15&pause=1200&color=00D9FF&center=true&vCenter=true&repeat=true&width=620&lines=SELECT+*+FROM+insights+WHERE+value+%3D+%27high%27;Building+pipelines+that+don%27t+break+at+3am;ETL+%E2%86%92+Transform+%E2%86%92+Insight+%E2%86%92+Decision;Tableau+%2B+Power+BI+%2B+Python+%2B+SQL+%3D+%F0%9F%9A%80;grep+-r+%22pattern%22+./data+%7C+awk+%27{print+%24insight}%27" alt="Typing SVG" />
+  /* HERO */
+  .hero-banner { height: 120px; background: linear-gradient(135deg, #0a66c2, #004182); }
+  .hero-body { padding: 0 24px 20px; position: relative; }
+  .avatar { width: 88px; height: 88px; border-radius: 50%; background: #0a66c2; border: 4px solid #fff; display: flex; align-items: center; justify-content: center; font-size: 28px; font-weight: 700; color: #fff; margin-top: -44px; margin-bottom: 12px; }
+  .hero-name { font-size: 22px; font-weight: 700; color: #000; margin-bottom: 4px; }
+  .hero-headline { font-size: 14px; color: #333; line-height: 1.5; margin-bottom: 6px; }
+  .hero-location { font-size: 13px; color: #0a66c2; margin-bottom: 14px; }
+  .btn-row { display: flex; gap: 8px; flex-wrap: wrap; }
+  .btn-primary { background: #0a66c2; color: #fff; border: none; padding: 8px 20px; border-radius: 20px; font-size: 13px; font-weight: 600; cursor: pointer; }
+  .btn-secondary { background: #fff; color: #0a66c2; border: 1.5px solid #0a66c2; padding: 7px 20px; border-radius: 20px; font-size: 13px; font-weight: 600; cursor: pointer; }
+  .open-badge { display: inline-block; background: #daf0e3; color: #057642; font-size: 12px; font-weight: 600; padding: 4px 12px; border-radius: 4px; margin-top: 10px; }
 
-<br/>
+  /* SECTION COMMON */
+  .section { padding: 20px 24px; }
+  .section + .section { border-top: 1px solid #e0e0e0; }
+  .section-title { font-size: 18px; font-weight: 700; margin-bottom: 16px; color: #000; }
 
-[![Profile Views](https://komarev.com/ghpvc/?username=nitinrawat05&style=for-the-badge&color=00D9FF&label=PROFILE+VIEWS)](https://github.com/nitinrawat05)
-&nbsp;
-[![Gmail](https://img.shields.io/badge/Gmail-nitinrawat2502-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:nitinrawat2502@gmail.com)
-&nbsp;
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/nitin-rawat-a38536270)
-&nbsp;
-[![Tableau](https://img.shields.io/badge/Tableau-Portfolio-E97627?style=for-the-badge&logo=tableau&logoColor=white)](https://public.tableau.com/app/profile/nitin.rawat7728/vizzes)
+  /* ABOUT */
+  .about-text { font-size: 14px; line-height: 1.75; color: #333; white-space: pre-line; }
+  .stack-row { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 14px; }
+  .tag { font-size: 12px; padding: 4px 10px; border-radius: 14px; font-weight: 500; }
+  .tag-blue { background: #dce6f0; color: #004182; }
+  .tag-green { background: #daf0e3; color: #057642; }
+  .tag-purple { background: #ede9f8; color: #5f3dc4; }
+
+  /* EXPERIENCE */
+  .exp-item { display: flex; gap: 14px; margin-bottom: 22px; }
+  .exp-item:last-child { margin-bottom: 0; }
+  .exp-dot-col { display: flex; flex-direction: column; align-items: center; padding-top: 4px; }
+  .exp-dot { width: 12px; height: 12px; border-radius: 50%; flex-shrink: 0; }
+  .exp-line { width: 2px; flex: 1; background: #e0e0e0; margin-top: 4px; }
+  .exp-role { font-size: 15px; font-weight: 700; color: #000; margin-bottom: 2px; }
+  .exp-company { font-size: 13px; color: #555; margin-bottom: 10px; }
+  .exp-bullets { list-style: none; padding: 0; }
+  .exp-bullets li { font-size: 13px; color: #333; line-height: 1.65; padding: 3px 0 3px 16px; position: relative; }
+  .exp-bullets li::before { content: "▸"; position: absolute; left: 0; color: #0a66c2; }
+  .metric { color: #057642; font-weight: 700; }
+
+  /* SKILLS */
+  .skills-grid { display: flex; flex-wrap: wrap; gap: 8px; }
+  .skill-pill { font-size: 13px; padding: 6px 14px; border-radius: 20px; border: 1.5px solid #c9d4de; color: #333; background: #f9f9f9; font-weight: 500; }
+  .skill-pill:hover { background: #eef3f8; border-color: #0a66c2; color: #0a66c2; cursor: default; }
+  .skill-pill.learning { border-color: #9b7fe8; color: #5f3dc4; background: #f5f0ff; }
+
+  /* FEATURED */
+  .featured-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 12px; }
+  .feat-card { border: 1.5px solid #e0e0e0; border-radius: 8px; overflow: hidden; }
+  .feat-thumb { height: 70px; display: flex; align-items: center; justify-content: center; font-size: 28px; }
+  .feat-body { padding: 10px 12px; }
+  .feat-title { font-size: 13px; font-weight: 700; color: #000; margin-bottom: 4px; }
+  .feat-sub { font-size: 12px; color: #555; line-height: 1.5; }
+
+  /* CONNECT */
+  .connect-box { background: #eef3f8; border-radius: 8px; padding: 16px 20px; }
+  .connect-label { font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; color: #555; margin-bottom: 8px; }
+  .connect-text { font-size: 13px; color: #333; line-height: 1.7; font-style: italic; }
+  .copy-btn { margin-top: 10px; background: #0a66c2; color: #fff; border: none; padding: 7px 16px; border-radius: 16px; font-size: 12px; font-weight: 600; cursor: pointer; }
+  .copy-btn:hover { background: #004182; }
+
+  /* DIVIDER LABEL */
+  .divider-label { font-size: 11px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: #888; margin-bottom: 12px; }
+
+  @media (max-width: 520px) {
+    .hero-name { font-size: 18px; }
+    .featured-grid { grid-template-columns: 1fr 1fr; }
+  }
+</style>
+</head>
+<body>
+<div class="container">
+
+  <!-- HERO CARD -->
+  <div class="card">
+    <div class="hero-banner"></div>
+    <div class="hero-body">
+      <div class="avatar">NR</div>
+      <div class="hero-name">Nitin Rawat</div>
+      <div class="hero-headline">Data Analyst &amp; BI Engineer | ETL Pipelines · Tableau · Power BI · SQL · Python · AWS<br>Turning Raw Data into Business Decisions</div>
+      <div class="hero-location">📍 Delhi, India · nitinrawat2502@gmail.com</div>
+      <div class="open-badge">✅ Open to Work — Data Analyst · BI Engineer · Analytics Engineer</div>
+      <div class="btn-row" style="margin-top:14px;">
+        <button class="btn-primary">Connect</button>
+        <button class="btn-secondary">Message</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ABOUT -->
+  <div class="card">
+    <div class="section">
+      <div class="section-title">About</div>
+      <div class="about-text">I build the plumbing that keeps data clean, moving, and meaningful — so teams can stop guessing and start deciding.
+
+With 3+ years across BI, data engineering, and performance analytics, I've shipped end-to-end ETL pipelines on AWS, cut manual reporting effort by <span class="metric">80%</span>, and built dashboards that became the single source of truth for cross-functional teams.
+
+My work spans the full data stack — ingestion, transformation, modelling, and visualisation. From raw CSVs to Tableau dashboards, live Plotly Dash apps, and star schemas on Databricks, I build things that hold up in production.
+
+I've operated across AI ventures, staffing, and performance marketing, which means I translate fast between messy business questions and precise analytical answers.
+
+Currently levelling up in Cloud Data Engineering and AI-powered Analytics (LangChain, Hugging Face, TensorFlow).</div>
+      <div class="stack-row">
+        <span class="tag tag-blue">Python</span>
+        <span class="tag tag-blue">SQL</span>
+        <span class="tag tag-blue">Tableau</span>
+        <span class="tag tag-blue">Power BI</span>
+        <span class="tag tag-blue">AWS</span>
+        <span class="tag tag-blue">Databricks</span>
+        <span class="tag tag-green">↓ 80% manual effort</span>
+        <span class="tag tag-green">↑ 30% data accuracy</span>
+        <span class="tag tag-purple">LangChain — learning</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- EXPERIENCE -->
+  <div class="card">
+    <div class="section">
+      <div class="section-title">Experience</div>
+
+      <div class="exp-item">
+        <div class="exp-dot-col">
+          <div class="exp-dot" style="background:#0a66c2;"></div>
+          <div class="exp-line"></div>
+        </div>
+        <div>
+          <div class="exp-role">Data Analyst</div>
+          <div class="exp-company">LoQal AI Ventures · Delhi · Full-time</div>
+          <ul class="exp-bullets">
+            <li>Architected end-to-end ETL pipelines on <strong>AWS S3 + Lambda</strong>, fully automating cloud data ingestion across multiple sources</li>
+            <li>Cut manual reporting effort by <span class="metric">80%</span> through containerised, scheduled workflows built with Docker and Git</li>
+            <li>Deployed real-time dashboards in Tableau, Power BI, and Plotly Dash — giving stakeholders live access to business metrics</li>
+            <li>Managed full data deployment lifecycle on AWS, delivering a scalable, production-grade analytics layer</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="exp-item">
+        <div class="exp-dot-col">
+          <div class="exp-dot" style="background:#057642;"></div>
+          <div class="exp-line"></div>
+        </div>
+        <div>
+          <div class="exp-role">Data Analyst</div>
+          <div class="exp-company">Elon Staffing · Gurugram · Full-time</div>
+          <ul class="exp-bullets">
+            <li>Built a unified reporting layer integrating <span class="metric">5+ disparate databases</span> into a single SQL + Python ETL workflow</li>
+            <li>Improved data accuracy by <span class="metric">30%</span> through systematic cleaning and validation using Pandas, NumPy, and Seaborn</li>
+            <li>Designed KPI dashboards in Tableau and Power BI that accelerated cross-department decision-making by <span class="metric">20%</span></li>
+            <li>Automated recurring reports with Excel VBA and pivot tables, cutting generation time by <span class="metric">50%</span></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="exp-item">
+        <div class="exp-dot-col">
+          <div class="exp-dot" style="background:#c37d16;"></div>
+        </div>
+        <div>
+          <div class="exp-role">MIS Intelligence Analyst</div>
+          <div class="exp-company">AdByteHub · Gurugram · Full-time</div>
+          <ul class="exp-bullets">
+            <li>Delivered campaign analytics across CTR, CPC, and ROAS — giving leadership clear visibility into marketing ROI</li>
+            <li>Built structured revenue and ROI reports in Power BI consumed directly by senior stakeholders for strategic decisions</li>
+            <li>Maintained clean, consistent datasets with Python + SQL, ensuring accuracy across all performance reporting cycles</li>
+            <li>Tracked real-time campaign performance via Power BI dashboards used for day-to-day spend optimisation</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- SKILLS -->
+  <div class="card">
+    <div class="section">
+      <div class="section-title">Skills</div>
+      <div class="divider-label">Core</div>
+      <div class="skills-grid">
+        <span class="skill-pill">SQL</span>
+        <span class="skill-pill">Python</span>
+        <span class="skill-pill">ETL Pipelines</span>
+        <span class="skill-pill">Data Modelling</span>
+        <span class="skill-pill">Tableau</span>
+        <span class="skill-pill">Power BI</span>
+        <span class="skill-pill">Plotly Dash</span>
+        <span class="skill-pill">AWS S3</span>
+        <span class="skill-pill">AWS Lambda</span>
+        <span class="skill-pill">PySpark</span>
+        <span class="skill-pill">Databricks</span>
+        <span class="skill-pill">Docker</span>
+        <span class="skill-pill">Pandas</span>
+        <span class="skill-pill">NumPy</span>
+        <span class="skill-pill">Seaborn</span>
+        <span class="skill-pill">Scikit-learn</span>
+        <span class="skill-pill">Excel VBA</span>
+        <span class="skill-pill">Git</span>
+        <span class="skill-pill">Apache Superset</span>
+      </div>
+      <div class="divider-label" style="margin-top:16px;">Actively learning</div>
+      <div class="skills-grid">
+        <span class="skill-pill learning">LangChain</span>
+        <span class="skill-pill learning">Hugging Face</span>
+        <span class="skill-pill learning">TensorFlow</span>
+        <span class="skill-pill learning">PyTorch</span>
+        <span class="skill-pill learning">Cloud Data Engineering</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- FEATURED -->
+  <div class="card">
+    <div class="section">
+      <div class="section-title">Featured</div>
+      <div class="featured-grid">
+        <div class="feat-card">
+          <div class="feat-thumb" style="background:#dce6f0;">🏭</div>
+          <div class="feat-body">
+            <div class="feat-title">FMCG Sales Analytics Platform</div>
+            <div class="feat-sub">Medallion pipeline — Databricks + AWS S3 + PySpark + Tableau</div>
+          </div>
+        </div>
+        <div class="feat-card">
+          <div class="feat-thumb" style="background:#daf0e3;">👥</div>
+          <div class="feat-body">
+            <div class="feat-title">HR Analytics Dashboard</div>
+            <div class="feat-sub">8,900+ records · 20+ visuals · LOD expressions — Tableau Public</div>
+          </div>
+        </div>
+        <div class="feat-card">
+          <div class="feat-thumb" style="background:#fff4e0;">💰</div>
+          <div class="feat-body">
+            <div class="feat-title">Product Price Dynamics</div>
+            <div class="feat-sub">EDA + Power BI on pricing patterns — Python + Seaborn</div>
+          </div>
+        </div>
+        <div class="feat-card">
+          <div class="feat-thumb" style="background:#ede9f8;">✍️</div>
+          <div class="feat-body">
+            <div class="feat-title">Post idea: 5 lessons from building ETL pipelines on AWS</div>
+            <div class="feat-sub">Thought leadership — drives recruiter reach organically</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CONNECTION MESSAGE -->
+  <div class="card">
+    <div class="section">
+      <div class="section-title">Connection request message</div>
+      <div class="connect-box">
+        <div class="connect-label">Short · 300 char limit</div>
+        <div class="connect-text" id="connect-msg">Hi [Name], I came across your profile and love what [Company] is building in the data space. I'm a Data Analyst with 3+ years in ETL pipelines, Tableau, and AWS — currently exploring new opportunities. Would be great to connect!</div>
+        <button class="copy-btn" onclick="copyMsg()">Copy message</button>
+      </div>
+    </div>
+  </div>
 
 </div>
 
-<br/>
-
----
-
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│                         nitin@data-lab:~$  whoami                           │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
-
-<table>
-<tr>
-<td width="55%" valign="top">
-
-### `> about_me.json`
-
-```json
-{
-  "name": "Nitin Rawat",
-  "alias": "Nits",
-  "role": "Data Analyst / BI Engineer",
-  "location": "Delhi, India 🇮🇳",
-  "education": "B.Com — University of Delhi (2023)",
-  "experience": [
-    "LoQal AI Ventures",
-    "Elon Staffing",
-    "AdByteHub"
-  ],
-  "current_obsessions": [
-    "LLMs & AI Automation",
-    "Cloud Data Engineering",
-    "ML-powered Analytics"
-  ],
-  "fun_fact": "I debug JOIN queries for fun 🧩"
-}
-```
-
-</td>
-<td width="45%" valign="top">
-
-### `> skill_levels.sh`
-
-```bash
-# Core Proficiency
-$ rate ETL_Pipelines       ████████████ 95%
-$ rate SQL_and_Python      ██████████░░ 90%
-$ rate Tableau_PowerBI     ████████████ 95%
-$ rate AWS_DataStack       ████████░░░░ 75%
-$ rate ML_and_AI           ██████░░░░░░ 60%
-
-# Currently Installing
-$ pip install langchain
-$ pip install transformers
-$ pip install tensorflow
-↳ Status: Learning... ⚡
-```
-
-</td>
-</tr>
-</table>
-
----
-
-## `> experience --verbose --format=table`
-
-<details open>
-<summary>&nbsp;<b>🔵 &nbsp;Data Analyst — LoQal AI Ventures</b> &nbsp;·&nbsp; Delhi &nbsp;·&nbsp; <code>Most Recent</code></summary>
-<br/>
-
-| Deliverable | Stack | Result |
-|-------------|-------|--------|
-| End-to-end ETL Pipelines | Python · SQL · AWS S3 · Lambda | Automated cloud ingestion |
-| Real-time Dashboards | Plotly Dash · Tableau · Power BI | Live business insights |
-| Scheduled Reporting | Docker · Git · Cloud workflows | **↓ 80% manual effort** |
-| Data Deployment | Containerized stacks · AWS | Scalable, reliable data layer |
-
-</details>
-
-<br/>
-
-<details open>
-<summary>&nbsp;<b>🟢 &nbsp;Data Analyst — Elon Staffing</b> &nbsp;·&nbsp; Gurugram &nbsp;·&nbsp; <code>BI & Automation</code></summary>
-<br/>
-
-| Deliverable | Stack | Result |
-|-------------|-------|--------|
-| Multi-source ETL | SQL · Python · 5+ databases | Unified reporting layer |
-| Data Cleaning & Analysis | Pandas · NumPy · Matplotlib · Seaborn | **↑ 30% data accuracy** |
-| KPI Dashboards | Tableau · Power BI | **↑ 20% faster cross-dept decisions** |
-| Reporting Automation | Excel VBA · Pivot Tables | **↓ 50% report generation time** |
-
-</details>
-
-<br/>
-
-<details open>
-<summary>&nbsp;<b>🟠 &nbsp;MIS Intelligence Analyst — AdByteHub</b> &nbsp;·&nbsp; Gurugram &nbsp;·&nbsp; <code>Performance Marketing</code></summary>
-<br/>
-
-| Deliverable | Stack | Result |
-|-------------|-------|--------|
-| Campaign Analytics | Facebook Ads · CTR · CPC · ROAS | Marketing ROI clarity |
-| Revenue & ROI Reporting | Power BI · Structured datasets | Exec-ready decision reports |
-| KPI Dashboards | Power BI | Real-time campaign tracking |
-| Dataset Management | Python · SQL | Consistent, accurate reporting |
-
-</details>
-
----
-
-## `> tech_stack --all --theme=dark`
-
-<div align="center">
-
-**⟦ DATA ENGINEERING ⟧**
-
-![Python](https://img.shields.io/badge/Python-0D1117?style=for-the-badge&logo=python&logoColor=00D9FF)
-![SQL](https://img.shields.io/badge/SQL-0D1117?style=for-the-badge&logo=postgresql&logoColor=00D9FF)
-![PySpark](https://img.shields.io/badge/PySpark-0D1117?style=for-the-badge&logo=apachespark&logoColor=E25A1C)
-![AWS S3](https://img.shields.io/badge/AWS_S3-0D1117?style=for-the-badge&logo=amazons3&logoColor=FF9900)
-![AWS Lambda](https://img.shields.io/badge/AWS_Lambda-0D1117?style=for-the-badge&logo=awslambda&logoColor=FF9900)
-![Databricks](https://img.shields.io/badge/Databricks-0D1117?style=for-the-badge&logo=databricks&logoColor=FF3621)
-![Docker](https://img.shields.io/badge/Docker-0D1117?style=for-the-badge&logo=docker&logoColor=2496ED)
-![Git](https://img.shields.io/badge/Git-0D1117?style=for-the-badge&logo=git&logoColor=F05032)
-
-**⟦ ANALYTICS & VISUALIZATION ⟧**
-
-![Tableau](https://img.shields.io/badge/Tableau-0D1117?style=for-the-badge&logo=tableau&logoColor=E97627)
-![Power BI](https://img.shields.io/badge/Power_BI-0D1117?style=for-the-badge&logo=powerbi&logoColor=F2C811)
-![Plotly Dash](https://img.shields.io/badge/Plotly_Dash-0D1117?style=for-the-badge&logo=plotly&logoColor=3F4F75)
-![Excel VBA](https://img.shields.io/badge/Excel_VBA-0D1117?style=for-the-badge&logo=microsoftexcel&logoColor=217346)
-![Apache Superset](https://img.shields.io/badge/Apache_Superset-0D1117?style=for-the-badge&logo=apache&logoColor=D22128)
-
-**⟦ PYTHON ECOSYSTEM ⟧**
-
-![Pandas](https://img.shields.io/badge/Pandas-0D1117?style=for-the-badge&logo=pandas&logoColor=150458)
-![NumPy](https://img.shields.io/badge/NumPy-0D1117?style=for-the-badge&logo=numpy&logoColor=013243)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-0D1117?style=for-the-badge&logo=python&logoColor=00D9FF)
-![Seaborn](https://img.shields.io/badge/Seaborn-0D1117?style=for-the-badge&logo=python&logoColor=4C72B0)
-![Scikit-learn](https://img.shields.io/badge/Scikit--learn-0D1117?style=for-the-badge&logo=scikitlearn&logoColor=F7931E)
-![PyTorch](https://img.shields.io/badge/PyTorch-0D1117?style=for-the-badge&logo=pytorch&logoColor=EE4C2C)
-
-**⟦ AI / ML — ACTIVELY LEVELLING UP ⟧**
-
-![TensorFlow](https://img.shields.io/badge/TensorFlow-0D1117?style=for-the-badge&logo=tensorflow&logoColor=FF6F00)
-![LangChain](https://img.shields.io/badge/LangChain-0D1117?style=for-the-badge&logo=chainlink&logoColor=00D9FF)
-![Hugging Face](https://img.shields.io/badge/Hugging_Face-0D1117?style=for-the-badge&logo=huggingface&logoColor=FFD21E)
-
-</div>
-
----
-
-## `> projects --featured --sort=impact`
-
-<table>
-<tr>
-<td width="33%" valign="top">
-
-### 🏭 FMCG Sales Analytics Platform
-**[`→ github.com/nitinrawat05/FMCG-Sales`](https://github.com/nitinrawat05/FMCG-Sales)**
-
-End-to-end **medallion data pipeline** built on Databricks, ingesting FMCG sales data from AWS S3.
-
-```
-Bronze ──► Silver ──► Gold
-  │           │          │
-Ingest      Clean      Model
-  │           │          │
-Raw CSV    Validated  Star Schema
-```
-
-- ETL with **SQL + PySpark**
-- **Star schema**: fact + dimension tables
-- Tableau dashboards with drill-down, calculated fields & regional filters
-
-<br/>
-
-![Databricks](https://img.shields.io/badge/-Databricks-FF3621?style=flat-square&logo=databricks&logoColor=white)
-![AWS](https://img.shields.io/badge/-AWS-FF9900?style=flat-square&logo=amazonaws&logoColor=white)
-![PySpark](https://img.shields.io/badge/-PySpark-E25A1C?style=flat-square&logo=apachespark&logoColor=white)
-![Tableau](https://img.shields.io/badge/-Tableau-E97627?style=flat-square&logo=tableau&logoColor=white)
-
-</td>
-<td width="33%" valign="top">
-
-### 💰 Product Price Dynamics
-**[`→ github.com/nitinrawat05/Product-Price-Dynamics`](https://github.com/nitinrawat05/Product-Price-Dynamics)**
-
-Deep EDA on meat, poultry & dairy datasets — uncovering pricing patterns and discount behaviour.
-
-```
-Raw Data ──► EDA ──► Dashboard
-    │          │           │
-  CSV      Correlation   Power BI
-    │          │           │
-Cleaned    Seaborn      Filters
-```
-
-- Rating · discount · price relationship analysis
-- **Matplotlib + Seaborn** distribution charts
-- Interactive **Power BI** for cross-category comparison
-
-<br/>
-
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Pandas](https://img.shields.io/badge/-Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
-![Power BI](https://img.shields.io/badge/-Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)
-
-</td>
-<td width="33%" valign="top">
-
-### 👥 HR Analytics Dashboard
-**[`→ View on Tableau Public`](https://public.tableau.com/app/profile/nitin.rawat7728/vizzes)**
-
-Interactive Tableau dashboard across **8,900+ employee records**, 9 years of data, 10+ cities.
-
-```
-8,900 records ──► 20+ visuals
-9 years of data ──► LOD calcs
-10+ cities ──► Drill-down views
-```
-
-- Hiring trends · salary gaps · gender ratios · attrition
-- Advanced **LOD expressions** + dynamic filters
-- Structured data: roles · salaries · education · performance
-
-<br/>
-
-![Tableau](https://img.shields.io/badge/-Tableau-E97627?style=flat-square&logo=tableau&logoColor=white)
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Excel](https://img.shields.io/badge/-Excel-217346?style=flat-square&logo=microsoftexcel&logoColor=white)
-
-</td>
-</tr>
-</table>
-
----
-
-## `> github --stats --theme=dark`
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=nitinrawat05&show_icons=true&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=00D9FF&icon_color=00D9FF&text_color=CDD9E5&ring_color=00D9FF&include_all_commits=true&count_private=true" height="165"/>
-&nbsp;
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=nitinrawat05&layout=compact&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=00D9FF&text_color=CDD9E5&langs_count=6" height="165"/>
-
-<br/>
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=nitinrawat05&theme=github-dark-blue&hide_border=true&background=0D1117&ring=00D9FF&fire=FF6B35&currStreakLabel=00D9FF&sideLabels=CDD9E5&dates=8B949E&stroke=0D1117" width="55%"/>
-
-</div>
-
----
-
-## `> contribution_graph --live`
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=nitinrawat05&bg_color=0D1117&color=00D9FF&line=00D9FF&point=FF6B35&area=true&area_color=00D9FF20&hide_border=true&custom_title=Contribution%20Activity%20%E2%80%94%20nitinrawat05&radius=8" width="100%"/>
-
----
-
-## `> trophies --display`
-
-<div align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=nitinrawat05&theme=darkhub&no-frame=true&no-bg=true&margin-w=8&column=7" width="100%"/>
-</div>
-
----
-
-<div align="center">
-
-```
-╔════════════════════════════════════════════════════════════════════╗
-║   Open to: Data Analyst · BI Engineer · Analytics Engineer        ║
-║            AI-powered Data Products · Data Science Roles          ║
-╚════════════════════════════════════════════════════════════════════╝
-```
-
-[![Drop a Mail](https://img.shields.io/badge/📧_Drop_a_Mail-nitinrawat2502%40gmail.com-EA4335?style=for-the-badge)](mailto:nitinrawat2502@gmail.com)
-&nbsp;
-[![Connect on LinkedIn](https://img.shields.io/badge/🤝_Connect-LinkedIn-0A66C2?style=for-the-badge)](https://linkedin.com/in/nitin-rawat-a38536270)
-&nbsp;
-[![View Dashboards](https://img.shields.io/badge/📊_View_Dashboards-Tableau_Public-E97627?style=for-the-badge)](https://public.tableau.com/app/profile/nitin.rawat7728/vizzes)
-
-<br/>
-
-*"Without data, you're just another person with an opinion."*
-
-</div>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer&animation=twinkling" width="100%"/>
+<script>
+  function copyMsg() {
+    const text = document.getElementById('connect-msg').innerText;
+    navigator.clipboard.writeText(text).then(() => {
+      const btn = document.querySelector('.copy-btn');
+      btn.textContent = 'Copied!';
+      setTimeout(() => btn.textContent = 'Copy message', 2000);
+    });
+  }
+</script>
+</body>
+</html>
