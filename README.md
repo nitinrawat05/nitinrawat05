@@ -14,7 +14,7 @@
 
 I specialize in turning raw, messy data into **structured insights and business decisions**.
 
-With **3+ years of experience**, I have built end-to-end data solutions — from ETL pipelines to dashboards — across AI, staffing, and marketing domains.
+With **2 years of experience**, I have built end-to-end data solutions — from ETL pipelines to dashboards — across AI, staffing, and marketing domains.
 
 * ⚡ Reduced manual reporting effort by **80%**
 * 📈 Improved data accuracy by **30%**
