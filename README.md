@@ -1,193 +1,145 @@
-<!DOCTYPE html>
+# 👋 Hi, I'm Nitin Rawat
 
-<html lang="en">
-<head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>Nitin Rawat — LinkedIn Profile</title>
+💼 **Data Analyst | Business Intelligence Analyst**
+📍 Delhi, India
 
-<style>
-  * { box-sizing: border-box; margin: 0; padding: 0; }
+📧 [nitinrawat2502@gmail.com](mailto:nitinrawat2502@gmail.com)
+🔗 [LinkedIn](https://linkedin.com/in/nitin-rawat-a38536270)
+💻 [GitHub](https://github.com/nitinrawat05)
+🌐 [Portfolio](https://ig-so.vercel.app/)
 
-  body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-    background: #f3f2ef;
-    color: #000;
-  }
+---
 
-  .container {
-    max-width: 740px;
-    margin: 32px auto;
-    padding: 0 16px 64px;
-  }
+## 🚀 About Me
 
-  .card {
-    background: #fff;
-    border-radius: 10px;
-    border: 1px solid #e0e0e0;
-    margin-bottom: 12px;
-    overflow: hidden;
-  }
+I specialize in turning raw, messy data into **structured insights and business decisions**.
 
-  .hero-banner {
-    height: 120px;
-    background: linear-gradient(135deg, #0a66c2, #004182);
-  }
+With **3+ years of experience**, I have built end-to-end data solutions — from ETL pipelines to dashboards — across AI, staffing, and marketing domains.
 
-  .hero-body {
-    padding: 0 24px 20px;
-    position: relative;
-  }
+* ⚡ Reduced manual reporting effort by **80%**
+* 📈 Improved data accuracy by **30%**
+* 📊 Built dashboards used for real-time business decisions
+* 🔄 Integrated data from **5+ sources into unified pipelines**
 
-  .avatar {
-    width: 88px;
-    height: 88px;
-    border-radius: 50%;
-    background: #0a66c2;
-    border: 4px solid #fff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 28px;
-    font-weight: 700;
-    color: #fff;
-    margin-top: -44px;
-    margin-bottom: 12px;
-    cursor: pointer;
-  }
+I work across the full data stack:
+**Data Ingestion → Transformation → Modeling → Visualization**
 
-  .hero-name { font-size: 22px; font-weight: 700; margin-bottom: 4px; }
-  .hero-headline { font-size: 14px; color: #333; line-height: 1.5; }
-  .hero-location { font-size: 13px; color: #0a66c2; margin-top: 6px; }
+---
 
-  .btn-row {
-    display: flex;
-    gap: 8px;
-    margin-top: 14px;
-  }
+## 🛠️ Tech Stack
 
-  .btn-primary {
-    background: #0a66c2;
-    color: #fff;
-    border: none;
-    padding: 8px 20px;
-    border-radius: 20px;
-    cursor: pointer;
-  }
+### 📊 BI & Visualization
 
-  .btn-secondary {
-    background: #fff;
-    color: #0a66c2;
-    border: 1.5px solid #0a66c2;
-    padding: 7px 20px;
-    border-radius: 20px;
-    cursor: pointer;
-  }
+* Power BI
+* Tableau
+* Plotly Dash
+* Apache Superset
 
-  .section { padding: 20px 24px; }
-  .section-title { font-size: 18px; font-weight: 700; margin-bottom: 16px; }
+### 🧠 Data Analysis
 
-  .connect-box {
-    background: #eef3f8;
-    border-radius: 8px;
-    padding: 16px;
-  }
+* Python (Pandas, NumPy, Matplotlib, Seaborn)
+* SQL
+* PySpark
 
-  .connect-text {
-    font-size: 13px;
-    line-height: 1.6;
-  }
+### ⚙️ Data Engineering
 
-  .copy-btn {
-    margin-top: 10px;
-    background: #0a66c2;
-    color: #fff;
-    border: none;
-    padding: 7px 16px;
-    border-radius: 16px;
-    cursor: pointer;
-  }
-</style>
+* ETL Pipelines
+* Databricks
+* Delta Lake
+* AWS (S3, Lambda)
+* Snowflake
+* Microsoft Fabric
 
-</head>
+### 🧰 Tools
 
-<body>
+* Excel (Pivot Tables, VBA)
+* Git & GitHub
+* Docker
 
-<div class="container">
+---
 
-  <div class="card">
-    <div class="hero-banner"></div>
+## 💼 Experience
 
-```
-<div class="hero-body">
-  <div class="avatar">NR</div>
-  <div class="hero-name">Nitin Rawat</div>
-  <div class="hero-headline">
-    Data Analyst | SQL · Python · Power BI · AWS
-  </div>
-  <div class="hero-location">Delhi, India</div>
+### 🔹 Data Analyst — LoQal AI Ventures
 
-  <div class="btn-row">
-    <button type="button" class="btn-primary">Connect</button>
-    <button type="button" class="btn-secondary">Message</button>
-  </div>
-</div>
-```
+* Built **end-to-end ETL pipelines** using Python, SQL, AWS
+* Automated reporting → reduced manual effort by **80%**
+* Developed dashboards in **Power BI, Tableau, Plotly Dash**
+* Deployed scalable cloud-based data workflows
 
-  </div>
+---
 
-  <div class="card">
-    <div class="section">
-      <div class="section-title">Connection request message</div>
+### 🔹 Data Analyst — Elon Staffing
 
-```
-  <div class="connect-box">
-    <div class="connect-text" id="connect-msg">
-```
+* Integrated **5+ databases** into a unified data pipeline
+* Improved data accuracy by **30%** using Python
+* Built KPI dashboards → improved decision speed by **20%**
+* Automated reports using Excel VBA (↓ 50% time)
 
-Hi [Name], I came across your profile and love what your team is building. I'm a Data Analyst with experience in SQL, Python, and Power BI, currently exploring new opportunities. Would be great to connect! </div>
+---
 
-```
-    <button type="button" class="copy-btn" onclick="copyMsg()">Copy message</button>
-  </div>
-</div>
-```
+### 🔹 MIS Intelligence Analyst — AdByteHub
 
-  </div>
+* Analyzed marketing KPIs: **CTR, CPC, ROAS**
+* Built Power BI dashboards for campaign tracking
+* Delivered ROI insights for business decisions
 
-</div>
+---
 
-<script>
-function copyMsg() {
-  const text = document.getElementById('connect-msg').innerText;
+## 📌 Featured Projects
 
-  const textarea = document.createElement("textarea");
-  textarea.value = text;
+### 📊 Marketing Analytics Dashboard
 
-  // Mobile safe
-  textarea.setAttribute("readonly", "");
-  textarea.style.position = "absolute";
-  textarea.style.left = "-9999px";
+🔗 https://github.com/nitinrawat05/marketing-analytics-dashboard-sqlpowerbi
 
-  document.body.appendChild(textarea);
-  textarea.select();
+* Built SQL + Power BI solution for campaign tracking
+* Designed **star schema data model**
+* Implemented KPIs: **ROAS, CTR, CAC**
+* Added funnel & cohort analysis
 
-  try {
-    document.execCommand("copy");
+---
 
-    const btn = document.querySelector('.copy-btn');
-    btn.textContent = "Copied!";
-    setTimeout(() => {
-      btn.textContent = "Copy message";
-    }, 2000);
+### 🏭 FMCG Sales Analytics Platform
 
-  } catch (err) {
-    alert("Copy failed. Please copy manually.");
-  }
+🔗 https://github.com/nitinrawat05/FMCG-Sales
 
-  document.body.removeChild(textarea);
-}
-</script>
+* Built **Databricks Medallion Architecture (Bronze–Silver–Gold)**
+* Used PySpark + SQL for transformations
+* Created Tableau dashboards for business insights
 
-</body>
-</html>
+---
+
+### 👥 HR Analytics Dashboard
+
+🔗 https://public.tableau.com/app/profile/nitin.rawat7728/vizzes
+
+* Analyzed **8,900+ employee records**
+* Built 20+ Tableau visuals
+* Used LOD expressions & drill-down analysis
+
+---
+
+## 📈 What I Bring
+
+✔ Strong SQL + Data Modeling
+✔ End-to-End ETL Pipeline Development
+✔ Business-Focused Dashboarding
+✔ Cloud + Big Data Exposure
+✔ Ability to translate business problems → data solutions
+
+---
+
+## 🎯 Currently Learning
+
+* LangChain
+* Hugging Face
+* TensorFlow
+* Advanced Data Engineering
+
+---
+
+## 🤝 Let's Connect
+
+If you're working on **data, analytics, or AI-driven products**, I'd love to connect.
+
+👉 Open to **Data Analyst / BI / Analytics Engineer roles**
